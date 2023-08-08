@@ -1,0 +1,191 @@
+html{
+    scroll-behavior: smooth;
+}
+body{
+    background-color: #1a202c;
+    color: #fff;
+    font-family: 'Montserrat', sans-serif;
+}
+.container{
+    width: 100%;
+    margin: 0 auto;
+}
+.nav-container{
+    display: flex;
+    justify-content: space-between;
+}
+.nav-links{
+    margin: 1rem 0;
+}
+.nav-link, .nav-link-title{
+    color: #fff;
+    text-decoration: none;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 24px;
+    margin: 1rem 0;
+}
+.nav-link{
+    padding: 0 1rem;
+}
+.nav-link-title>span{
+    color: #f56565;
+}
+.about-container{
+    margin: 4rem auto;
+    padding: 1rem 0;
+    background-color: #f2f2f2;
+    color: #000;
+    max-width: 650px;
+    border-radius: 1rem;
+    box-shadow: 0 2px 2px 2px #f2f2f2;
+}
+.hero-image{
+    margin: 0 auto;
+    display: block;
+    padding: 1rem 0;
+    height: auto;
+    max-width: 50%;
+    border-radius: 50%;
+}
+.title,.details,.description{
+    text-align: center;
+    font-size: 14px;
+    line-height: 20px;
+    padding: 0 1rem;
+}
+.description{
+    line-height: 30px;
+}
+.social-icons{
+    display: flex;
+    justify-content: center;
+}
+.social-image{
+    width: 30px;
+    height: 30px;
+    margin: 0 2rem;
+}
+.interest-container{
+    padding: 1rem;
+    border: 1px solid #f2f2f2;
+    border-radius: 15px;
+}
+.institution-item-container{
+    display: flex;
+}
+.institution-item, .project-item{
+    position: relative;
+    width: 100%;
+    min-height: 1px;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+.institution-image{
+    width: 100px;
+    height: 100px;
+    margin: 0 auto;
+    display: block;
+    padding: 1rem;
+    border: 1px solid lightgray;
+    border-radius: 15px;
+    box-shadow: rgba(196 196 196 /30%) 0px 5px 15px;
+}
+.project-item-container{
+    display: flex;
+    padding: 1rem;
+}
+.project-image{
+    width: 200px;
+    height: 150px;
+    margin: 0 auto;
+    display: block;
+    padding: 1rem;
+    border: 1px solid lightgray;
+    border-radius: 15px;
+    box-shadow: rgba(196 196 196 /30%) 0px 5px 15px;
+}
+.institution-image:hover, .project-image:hover{
+    background-color: #f2f2f2;
+}
+.institution-name, .degree-name, .skill-title, .activities-title, .project-name{
+    text-align: center;
+    font-size: 14px;
+    line-height: 22px;
+}
+.skill-container, .activites-container{
+    background-color: #f2f2f2;
+    margin: 4rem auto;
+    padding: 2rem 0;
+    color: black;
+    border-radius: 15px;
+    box-shadow: 0 2px 2px 2px #f2f2f2;
+}
+.skill-title, .activities-title{
+    font-size: 18px;
+    line-height: 26px;
+    color: #102940;
+}
+.btn{
+    width: 150px;
+    margin: auto;
+    display: block;
+    padding: .5rem;
+    border: 1px solid lightgray;
+    border-radius: 15px;
+    cursor: pointer;
+    font-size: 15px;
+    font-weight: bold;
+    font-family: 'Montserrat', sans-serif;
+    box-shadow: rgba(196 196 196 /30%) 0px 5px 15px;
+}
+
+
+.contact-container{
+    margin: 4rem auto;
+    padding-top: 2rem;
+    color: #f2f2f2;
+    text-decoration: none;
+}
+.contact-title{
+    text-align: center;
+    font-size: 20px;
+    line-height: 20px;
+    padding: 1rem 1rem;
+}
+.contact-details{
+    text-align: center;
+    font-size: 14px;
+    line-height: 20px;
+    padding: 0 1rem;
+    justify-content: center;
+}
+.contact-container ul{
+    text-align: center;
+    font-size: 14px;
+    line-height: 22px;
+    text-decoration: none;
+    list-style: none;
+}
+
+
+@media (min-width: 1200px) {
+    .container{
+        max-width: 1180px;
+    }
+}
+@media (min-width: 992px) {
+    .container{
+        max-width: 960px;
+    }
+}
+@media (max-width: 768px) {
+    .container{
+        max-width: 720px;
+    }
+}
+@media (max-width: 576px) {
+    .container{
+        max-width: 540px;
+    }
+}
